@@ -28,8 +28,8 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 
-	$.get("http://localhost:3000/project/" + idNumber, callBack);
-	console.log("http://localhost:3000/project/" + idNumber);
+	$.get("/project/" + idNumber, callBack);
+	console.log("/project/" + idNumber);
 }
 
 function callBack(result){
